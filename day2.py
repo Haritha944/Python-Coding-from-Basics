@@ -31,3 +31,36 @@ def check_odd_or_even(number_1):
 number_1=int(input("Enter a number:\n"))
 value1=check_odd_or_even(number_1)
 print(value1)
+
+#7.Given a list of numbers find out max and min numbers
+
+def max_numbers(list1):
+    maximum = list1[0]
+    for num in list1:
+        if num > maximum:
+            maximum = num
+    return maximum
+def min_numbers(list1):
+    minimum = list1[0]
+    for num in list1:
+        if num<minimum:
+            minimum=num
+    return minimum
+list1=[23,5,89,77]
+value=max_numbers(list1)
+value1=min_numbers(list1)
+print(value1,value)
+#Question 8:Check whether a string is palindrome or not
+
+def check_palindrome(string1):
+    value=""
+    value=string1[::-1]
+    if value==string1:
+         return True
+    else:
+         return False
+
+
+string1=input("enter the string\n")
+check=check_palindrome(string1)
+print(check)

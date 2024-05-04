@@ -1,16 +1,11 @@
-# This is a sample Python script.
+#https://www.linkedin.com/feed/update/urn:li:activity:7191101477560418304/?utm_source=share&utm_medium=member_android
+#2 question
+number_1=int(input('Enter 1st number \n'))
+number_2=int(input('Enter the 2 number\n'))
+sum=number_1+number_2
+print(sum)
+#3question:Convert temperature from celsius to fahrenheit
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+input=int(input('Enter the temperature in Celsius\n'))
+fahr_temp=(input*(9/5))+32
+print(fahr_temp)

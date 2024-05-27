@@ -1,4 +1,4 @@
-#31.Implement a program to find all permutations of a string.
+#32.Implement a program to find all permutations of a string.
 
 def find_permutations(my_string):
     if len(my_string) == 1:
@@ -17,7 +17,7 @@ result = find_permutations(my_strings)
 print(result)
 
 
-#32.Common letters in between two string
+#33.Common letters in between two string
 
 def common_string(string1,string2):
     s1=set(string1)
